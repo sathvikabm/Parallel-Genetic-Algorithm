@@ -175,6 +175,7 @@ int main() {
 
     int max_val = 250;
 
+    //initialising 1D array of cost of ith city to jth city called citymap
     float citymap[num_cities*num_cities];
 
     int* population = (int*)calloc(ISLANDS*num_cities, sizeof(int));
@@ -184,7 +185,7 @@ int main() {
     printf("Num islands: %d\n", ISLANDS);
     printf("Population size: %d\n", ISLANDS*num_cities);
 
-    //building cost table
+    //building cost table (citymap)
     for(int i=0; i<num_cities; i++) {
         for(int j=0; j<num_cities; j++) {
             if(i!=j) {
