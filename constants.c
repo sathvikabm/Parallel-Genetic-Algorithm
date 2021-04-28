@@ -5,7 +5,7 @@ const int num_threads = 200;
 const int ISLANDS =  num_blocks * num_threads;
 
 // GA config
-const int num_generations = 5000;
+const int num_generations = 2000;
 const float mutation_ratio= 0.05;
 const int print_interval = 100;
 
