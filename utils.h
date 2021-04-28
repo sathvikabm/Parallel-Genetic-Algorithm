@@ -11,6 +11,8 @@ float L2distance(float x1, float y1, float x2, float y2) {
  * First add all the cost for travelling on the route and then normalize
  * To be called form both host and device
  */
+
+//evaluates total cost of route and computes fitness
 __host__ __device__ void evaluateRoute(int* population, float* population_cost, float* population_fitness, float* citymap, int i) {
     float distance = 0;
     for (int j = 0; j < num_cities-1; j++) {
