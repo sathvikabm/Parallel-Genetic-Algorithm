@@ -1,2 +1,2 @@
 # Parallel-Genetic-Algorithm-to-optimize-TSP
-Parallelized Genetic Algorithms using Island models on GPU's to effectively and heuristically estimate the solution to the Travelling Salesman Problem. The proposed algorithm managed a tour distance within a error of 1.5\% of the optimal value on the Berlin-52 dataset.
+This project uses the concepts of evolutionary biology like Darwin's survival of the fittest, crossover and mutation to find the least cost path in the Travelling Salesman Problem.
