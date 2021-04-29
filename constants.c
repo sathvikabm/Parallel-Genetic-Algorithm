@@ -1,7 +1,7 @@
 // Kernel config
 // Grid size
 const int num_blocks = 1;
-const int num_threads = 100;
+const int num_threads = 200;
 const int ISLANDS =  num_blocks * num_threads;
 
 // GA config
